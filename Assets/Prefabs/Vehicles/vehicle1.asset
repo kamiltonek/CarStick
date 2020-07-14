@@ -1,0 +1,259 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56509944c7053ba4fa87dbf5adc0159d, type: 3}
+  m_Name: vehicle1
+  m_EditorClassIdentifier: 
+  vehicleName: car1
+  vehicleImage: {fileID: 4370498573246206394, guid: 3c3594bacfd1dfa4691f07916ca68f05,
+    type: 3}
+  skins:
+  - {fileID: 21300000, guid: 192a9cbad0dbe8546adef6752f8a31ec, type: 3}
+  - {fileID: 21300000, guid: de32b323b70715147a1c7f446c5adca6, type: 3}
+  - {fileID: 21300000, guid: 9e2d1771a5c3dd540b6113e9461fc5e3, type: 3}
+  - {fileID: 21300000, guid: f1eeada3c4f1a65499ee02aa32f9e0cd, type: 3}
+  skinsIcons:
+  - {fileID: 21300000, guid: 6079580fdb29c414bbeaa6b401c1d572, type: 3}
+  - {fileID: 21300000, guid: a37e4784176dc5b41973a1702b19a6ad, type: 3}
+  - {fileID: 21300000, guid: 97607a65b4eec21438122eaa11213839, type: 3}
+  - {fileID: 21300000, guid: 66730313e0eceb94a896c50ee2fe4da6, type: 3}
+  vehicleGripCost:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 100
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 3000
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  speedCost:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 100
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 3000
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  accelerationCost:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 100
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 3000
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  turboCost:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 100
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 3000
+      inSlope: 100
+      outSlope: 100
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  vehicleGripValue:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 0.031578947
+      outSlope: 0.031578947
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 20
+      value: 1.6
+      inSlope: 0.035789475
+      outSlope: 0.035789475
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 2
+      inSlope: 0.04
+      outSlope: 0.04
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  speedValue:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 2450
+      inSlope: 16.828154
+      outSlope: 16.828154
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.10394265
+    - serializedVersion: 3
+      time: 14.922058
+      value: 2594.1978
+      inSlope: 9.268982
+      outSlope: 9.268982
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.087276526
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 2700
+      inSlope: 7.104316
+      outSlope: 7.104316
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.095280714
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  accelerationValue:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 2000
+      inSlope: 51.92533
+      outSlope: 51.92533
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.058809657
+    - serializedVersion: 3
+      time: 20
+      value: 2800
+      inSlope: 31.052631
+      outSlope: 31.052631
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 3000
+      inSlope: 15.45196
+      outSlope: 15.45196
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.30922928
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  turboValue:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 1
+      value: 6
+      inSlope: 0.23684211
+      outSlope: 0.23684211
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 20
+      value: 10.5
+      inSlope: 0.19342107
+      outSlope: 0.19342107
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30
+      value: 12
+      inSlope: 0.15
+      outSlope: 0.15
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  rotationSpeed: 5000
+  rotationSpeedInGround: 500
+  maxRotationSpeed: 500
+  maxReverseSpeed: 1000
